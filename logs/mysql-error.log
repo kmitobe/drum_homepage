@@ -1,0 +1,53 @@
+2020-09-04T22:17:39.650816+09:00 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2020-09-04T22:17:39.651004+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1
+2020-09-04T22:17:39.672889+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-09-04T22:17:39.969312+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-09-04T22:17:40.164983+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2020-09-04T22:17:40.254846+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-09-04T22:17:40.255738+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-09-04T22:17:40.261583+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-09-04T22:17:40.324155+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2020-09-04T22:40:10.834171+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.21).
+2020-09-04T22:40:12.434140+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2020-09-04T23:00:14.403127+09:00 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2020-09-04T23:00:14.403316+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1
+2020-09-04T23:00:14.431992+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-09-04T23:00:14.675630+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-09-04T23:00:14.813834+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2020-09-04T23:00:14.905385+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-09-04T23:00:14.906218+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-09-04T23:00:14.910392+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-09-04T23:00:14.955767+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2020-09-05T15:07:01.418381+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.21).
+2020-09-05T15:07:03.647060+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2020-09-08T12:50:04.280359+09:00 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2020-09-08T12:50:04.280477+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1
+2020-09-08T12:50:04.298439+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-09-08T12:50:04.602524+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-09-08T12:50:04.771509+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2020-09-08T12:50:04.851170+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-09-08T12:50:04.851762+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-09-08T12:50:04.855087+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-09-08T12:50:04.906619+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2020-09-08T12:57:00.874522+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.21).
+2020-09-08T12:57:02.816760+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2020-09-08T12:57:24.751351+09:00 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2020-09-08T12:57:24.751463+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1
+2020-09-08T12:57:24.765645+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-09-08T12:57:25.028909+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-09-08T12:57:25.132920+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2020-09-08T12:57:25.203898+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-09-08T12:57:25.204664+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-09-08T12:57:25.207673+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-09-08T12:57:25.239001+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2020-09-08T12:58:52.741195+09:00 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.21).
+2020-09-08T12:58:54.779591+09:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2020-09-08T13:00:31.728504+09:00 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2020-09-08T13:00:31.728618+09:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.21) starting as process 1
+2020-09-08T13:00:31.741041+09:00 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2020-09-08T13:00:31.978869+09:00 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2020-09-08T13:00:32.079185+09:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2020-09-08T13:00:32.153788+09:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-09-08T13:00:32.154360+09:00 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2020-09-08T13:00:32.157187+09:00 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-09-08T13:00:32.181649+09:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
