@@ -14,11 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 // TOPへの遷移
 Route::get('/', 'MenuController@index');
-// 通常の表示
-Route::get('/post','PostController@index');
-// 新規作成
-Route::post('/create','PostController@create');
-// 一覧
-Route::get('/list','ListController@index');
-// 削除
-Route::post('list/delete/{id}/','ListController@delete');
+// Scheduleの遷移
+Route::get('/schedule','ScheduleController@index');
+// Memberの遷移
+Route::get('/member','MemberController@index');
+// Information
+Route::get('/information','InformationController@index');

@@ -1,6 +1,6 @@
 <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
 <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="{{ url('/') }}">ポートフォリオへようこそ(仮)</a>
+  <a class="navbar-brand" href="{{ url('/') }}">Music Live DRUM</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -10,17 +10,17 @@
             <a class="nav-link" href="{{ url('/') }}">TOP<span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('content') }}">Contents</a>
+            <a class="nav-link" href="{{ url('schedule') }}">Schedule</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('list') }}">Posts</a>
+            <a class="nav-link" href="{{ url('member') }}">Member</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ url('contact') }}">Contact</a>
+            <a class="nav-link" href="{{ url('information') }}">Information</a>
         </li>
         <li class="nav-item dropdown"></li>
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          App
+          Service
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="{{ url('/') }}">APP1</a>

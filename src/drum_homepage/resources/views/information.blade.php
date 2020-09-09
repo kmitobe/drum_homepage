@@ -10,19 +10,14 @@
         @endcomponent
         </div>
         <!-- コンテンツ -->
-        <div class="container">
-            <form method="POST" action="/create">
-                @csrf
-                <label>タイトル</label>
-                <br>
-                <input type="text" name="title" size="40">
-                <br>
-                <label>投稿内容</label>
-                <br>
-                <textarea name="body" rows="10" cols="100"></textarea>
-                <input type="submit">
-            </form>
-            <div></div>
+        <div class="container-fluid">
+            <h1>Information</h1>
+            <dl class="row">
+                <dt class="col-sm-3">お知らせ</dt>
+                <dd class="col-sm-9">
+                    <p>ドラムのサイトがリニューアルしました</p>
+                </dd>
+            </dl>
         </div>
         <div id="footer">
         @component('components.footer')
