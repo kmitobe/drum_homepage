@@ -9,10 +9,9 @@
         @component('components.navber')
         @endcomponent
         </div>
-        <!-- コンテンツ -->
-        <div class="container-fluid">
-            <h1>Schedule</h1>
-            <div class="container">
+        <div class="container">
+            <div class="wrapper">
+                <h1>Schedule</h1>
             </div>
         </div>
         <div id="footer">
