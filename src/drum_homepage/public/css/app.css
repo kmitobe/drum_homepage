@@ -10899,3 +10899,107 @@ a.text-dark:focus {
   }
 }
 
+html,
+body {
+  background-color: #000000;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+html .wrapper,
+body .wrapper {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 5vw;
+  text-align: center;
+  color: black;
+  /*線の種類（実線） 太さ 色*/
+  border-bottom: solid 3px white;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+.content-link {
+  display: inline;
+}
+
+.content-image {
+  display: block;
+}
+
+.profile-image {
+  border-radius: 50%;
+  /* 角丸半径を50%にする(=円形にする) */
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+#navber {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: transparent;
+  border-bottom: solid 1px white;
+  border-top: solid 1px white;
+  border-color: rgba(255, 255, 255, 0.5);
+  padding: 0px;
+}
+
+#navber .navbar-brand {
+  padding: 0px;
+  font-size: 3vw;
+}
+
+#navber a {
+  color: #e9e9e9;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#navber .navbar-toggler {
+  border-color: white;
+  color: white;
+}
+
+#profile {
+  margin: 20px 0px 20px 0px;
+}
+
+#about {
+  margin: 20px 0px 20px 0px;
+}
+
+#content {
+  margin: 20px 0px 20px 0px;
+}
+
+.container {
+  margin: 30px 30px 30px 30px;
+}
+
+#footer {
+  border-color: white;
+  color: #e9e9e9;
+  width: 100%;
+  border-top: solid 1px white;
+  padding: 30px 0;
+  bottom: 0;
+  /*下に固定*/
+}
+
+#footer li {
+  list-style-type: none;
+}
+

@@ -20,3 +20,9 @@ Route::get('/schedule','ScheduleController@index');
 Route::get('/member','MemberController@index');
 // Information
 Route::get('/information','InformationController@index');
+
+Auth::routes();
+
+Route::get('/admin', 'AdminMenuController@index')->name('admin');
+
+Route::get('/admin/schedule', 'AdminScheduleController@index')->name('admin/schedule');
