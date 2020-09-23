@@ -15,6 +15,13 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    <!-- スケジュールアップ用フォーム -->
+                    <form method="POST" action="/admin/schedule" enctype="multipart/form-data">
+                        {{ csrf_field() }}
+                        <input type="month" name="month" required>
+                        <input type="file" id="file" name="file" required>
+                        <button type="submit">アップロード</button>
+                    </form>
                 </div>
             </div>
         </div>

@@ -16,13 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'MenuController@index');
 // Scheduleの遷移
 Route::get('/schedule','ScheduleController@index');
+Route::post('/schedule/search','ScheduleController@search');
+
 // Memberの遷移
 Route::get('/member','MemberController@index');
 // Information
 Route::get('/information','InformationController@index');
 
+
+
+
+// admin機能
 Auth::routes();
-
 Route::get('/admin', 'AdminMenuController@index')->name('admin');
-
 Route::get('/admin/schedule', 'AdminScheduleController@index')->name('admin/schedule');
+Route::post('/admin/schedule', 'AdminScheduleController@schedule_register')->name('admin/schedule');
