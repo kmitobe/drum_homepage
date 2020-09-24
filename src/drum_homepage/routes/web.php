@@ -29,5 +29,11 @@ Route::get('/information','InformationController@index');
 // admin機能
 Auth::routes();
 Route::get('/admin', 'AdminMenuController@index')->name('admin');
+// スケジュール
 Route::get('/admin/schedule', 'AdminScheduleController@index')->name('admin/schedule');
 Route::post('/admin/schedule', 'AdminScheduleController@schedule_register')->name('admin/schedule');
+// お知らせ
+Route::get('/admin/infomation','AdminInfomationController@index')->name('admin/info');
+Route::post('/admin/infomation','AdminInfomationController@infomation_register')->name('admin/info');
+Route::get('/admin/infomation/detail/{id}','AdminInfomationDetailController@index');
+Route::post('/admin/infomation/detail/{id}','AdminInfomationDetailController@update');

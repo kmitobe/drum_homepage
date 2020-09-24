@@ -15,9 +15,17 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    <a href="{{ url('/admin/schedule') }}">Schedule投稿</a>
-
+                    <p>このメニューではミュージックライブドラムのホームページの情報を編集できます</p>
+                    <a href="{{ url('/admin/schedule') }}">Schedule</a><br>
+                    <ul>
+                        <li>画像確認</li>
+                        <li>画像アップロード</li>
+                    </ul>
+                    <a href="{{ url('/admin/infomation') }}">Infomation</a>
+                    <ul>
+                        <li>お知らせ登録</li>
+                        <li>お知らせ編集</li>
+                    </ul>
                 </div>
             </div>
         </div>
