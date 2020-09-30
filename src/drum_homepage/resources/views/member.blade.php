@@ -11,7 +11,9 @@
         </div>
         <div class="container">
             <div class="wrapper">
-                <h1>Member</h1>
+                <h1 id="btn">Member</h1>
+                <div id="app">
+                </div>
             </div>
         </div>
 
@@ -22,5 +24,6 @@
         
         @component('components.script')
         @endcomponent
+
     </body>
 </html>

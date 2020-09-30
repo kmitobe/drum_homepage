@@ -12,6 +12,21 @@
         <div class="container">
             <div class="wrapper">
                 <h1>Information</h1>
+
+                <!-- お知らせ情報 -->
+                @foreach($infomation as $info)
+                <div class="card">
+                    <h5>{{$info->info_name}}</h5>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>{{$info->info_body}}</p>
+                            <footer class="blockquote-footer">
+                                {{ $info->year }}-{{$info->month}}
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                @endforeach
             </div>
         </div>
         <div id="footer">

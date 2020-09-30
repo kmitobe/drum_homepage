@@ -9,11 +9,13 @@
         @component('components.navber')
         @endcomponent
         </div>
+
         <!-- コンテンツ -->
         <div class="container-fluid">
             <div class="wrapper">
                 <img src="/img/headerimag.jpg" class="img-fluid" alt="Topの画像">
                 <h1>TOP</h1>
+                <p class="lead">プロへの登竜門と呼ばれた、ライブハウス</p>
                 <p class="lead">プロへの登竜門と呼ばれた、ライブハウス</p>
                 <p></p>
                 <p></p>

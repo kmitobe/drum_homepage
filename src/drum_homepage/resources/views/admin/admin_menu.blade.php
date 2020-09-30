@@ -26,6 +26,13 @@
                         <li>お知らせ登録</li>
                         <li>お知らせ編集</li>
                     </ul>
+                    <a href="{{ url('/admin/member') }}">Meｍber</a>
+                    <ul>
+                        <li>従業員登録</li>
+                        <li>従業員編集</li>
+                        <li>ミュージシャン登録</li>
+                        <li>ミュージシャン編集</li>
+                    </ul>
                 </div>
             </div>
         </div>

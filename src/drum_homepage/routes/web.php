@@ -23,9 +23,6 @@ Route::get('/member','MemberController@index');
 // Information
 Route::get('/information','InformationController@index');
 
-
-
-
 // admin機能
 Auth::routes();
 Route::get('/admin', 'AdminMenuController@index')->name('admin');
@@ -37,3 +34,5 @@ Route::get('/admin/infomation','AdminInfomationController@index')->name('admin/i
 Route::post('/admin/infomation','AdminInfomationController@infomation_register')->name('admin/info');
 Route::get('/admin/infomation/detail/{id}','AdminInfomationDetailController@index');
 Route::post('/admin/infomation/detail/{id}','AdminInfomationDetailController@update');
+// メンバー
+Route::get('/admin/member','AdminMemberController@index')->name('admin/member');
